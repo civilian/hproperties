@@ -53,6 +53,18 @@ I implemented the test project as a union of a Rest Api in Flask and a frontend 
 ## Design
 * There are two diagrams for easy modification: https://drive.google.com/file/d/17kkrtO9Zbq8PKwiK7um4zBZ57A9AYcXF/view?usp=sharing (but they have been generated in another tool)
 
+### Data to send to the backend
+* We expect you to send a variation this data to the url via GET parameters:
+``` json
+{
+    'status': 3,
+    'year': 2020,
+    'city': 'bogota',
+    'next': 0
+}
+```
+* Which is in another words this url: `localhost:5000/property?status=3&year=2020&city=bogota&next=0`
+  - The next parameter handles pagination and is optional (as all other parameters) 
 ### Like Functionality Entity Relationship diagram
 ![Social Like ER Diagram](./diagrams/social_like.png)
 * The like functionality is designed by creating a many-to-many table between the user table, and the property table that way assuring that a registered user can like a property.
