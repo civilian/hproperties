@@ -6,12 +6,12 @@ services:
         env_file: .env
         container_name: rest-service
         build:
-          context: .
+            context: .
             dockerfile: Dockerfile
             args:
               ENV_FILE: .env
               BASE_DIR: /h-rest
-        command:  /command.sh
+        command:  ./command.sh
         volumes:
           - .:/h-rest
         # ports:
@@ -24,7 +24,6 @@ services:
           dockerfile: Dockerfile
           args:
             ENV_FILE: .env
-            BASE_DIR: /flask-jwt-auth
       container_name: rest-service-nginx
       restart: always
       ports:
