@@ -1,0 +1,5 @@
+coverage
+Flask
+pytest
+gunicorn
+mysql-connector-python

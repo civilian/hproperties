@@ -10,3 +10,6 @@ __pycache__
 .DS_Store
 env.sh
 migrations
+/ignore
+/.idea
+/.pytest_cache
