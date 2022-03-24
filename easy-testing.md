@@ -10,4 +10,4 @@ and get it to run in postman
 ### Api Rest running the tests
 * If you connect to the server with the command, and the key provided in the mail, you can also review the 
 tests. First go to the ldloans directory (`cd ~/hproperties`) and then you can run the tests with with:
-  `docker-compose run rest-service python -m pytest`
+  `sudo docker-compose run rest-service python -m pytest`

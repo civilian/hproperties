@@ -55,7 +55,7 @@ I implemented the test project as a union of a Rest Api in Flask and a frontend 
 
 ### Data to send to the backend
 * We expect you to send a variation this data to the url via GET parameters:
-``` json
+``` javascript
 {
     'status': 3,
     'year': 2020,
