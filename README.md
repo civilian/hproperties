@@ -29,10 +29,10 @@ This is what you need to install in your computer
 
 #### Testing the api rest
 
-1) If you want to test in a visual manner here is the url to the project in postman -> [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/20133860-18a61172-c285-4bf5-a479-27f30b2b8447?action=collection%2Ffork&collection-url=entityId%3D20133860-18a61172-c285-4bf5-a479-27f30b2b8447%26entityType%3Dcollection%26workspaceId%3Df735ffb6-febe-4ea6-8f6d-7e49d20691b1)
+1) If you want to test in a visual manner here is the url to the project in postman -> [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/20133860-18a61172-c285-4bf5-a479-27f30b2b8447?action=collection%2Ffork&collection-url=entityId%3D20133860-18a61172-c285-4bf5-a479-27f30b2b8447%26entityType%3Dcollection%26workspaceId%3Df735ffb6-febe-4ea6-8f6d-7e49d20691b1#?env%5Bhabi_rest%5D=W3sia2V5Ijoic2VydmVyIiwidmFsdWUiOiI0NC4yMDMuMTI3LjE5MiIsImVuYWJsZWQiOnRydWUsInR5cGUiOiJkZWZhdWx0Iiwic2Vzc2lvblZhbHVlIjoiNDQuMjAzLjEyNy4xOTIiLCJzZXNzaW9uSW5kZXgiOjB9XQ==)
 
     - You can also see some examples of the urls.
-2) In general in the [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/20133860-18a61172-c285-4bf5-a479-27f30b2b8447?action=collection%2Ffork&collection-url=entityId%3D20133860-18a61172-c285-4bf5-a479-27f30b2b8447%26entityType%3Dcollection%26workspaceId%3Df735ffb6-febe-4ea6-8f6d-7e49d20691b1)
+2) In general in the [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/20133860-18a61172-c285-4bf5-a479-27f30b2b8447?action=collection%2Ffork&collection-url=entityId%3D20133860-18a61172-c285-4bf5-a479-27f30b2b8447%26entityType%3Dcollection%26workspaceId%3Df735ffb6-febe-4ea6-8f6d-7e49d20691b1#?env%5Bhabi_rest%5D=W3sia2V5Ijoic2VydmVyIiwidmFsdWUiOiI0NC4yMDMuMTI3LjE5MiIsImVuYWJsZWQiOnRydWUsInR5cGUiOiJkZWZhdWx0Iiwic2Vzc2lvblZhbHVlIjoiNDQuMjAzLjEyNy4xOTIiLCJzZXNzaW9uSW5kZXgiOjB9XQ==)
  you can see how to run the rest application with curl
 
 3) You can also review the tests that you run with:
