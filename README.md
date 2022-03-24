@@ -39,15 +39,18 @@ This is what you need to install in your computer
   `docker-compose run rest-service python -m pytest`
    
 ## Implementation
-I implemented the test project as a union of a Rest Api in Flask and a frontend in Reactjs.
+I implemented the test project as a Rest Api in Flask.
 
 ### Implemented Features
 * Docker machines with an up to date installation.
 * Docker compose files to make easier the use of Docker and the deployment.
 * Design of the Database.
-* Creation of the Rest Api in Flask with jwt token login.
-* Creation of the Rest Api documentaion in postman to simplify testing.
-* Creation of the tests of the Res Api in Flask to increase quality and understanding.
+* Creation of the Rest Api in Flask.
+* Creation of the Rest Api documentation in postman to simplify testing.
+* Creation of the tests of the Rest Api in Flask to increase quality and understanding.
+* Creation of a nginx production server for the rest-service in Flask to make it more secure and scalable.
+* An installation in AWS is created, configuring the ports, billing alarms, proper users for the database for easy testing.
+   - The database is kept local and not in an RDS due to cost of the machines.
 * Details; documentation, private variables and methods, custom error messages and providing tool to reduce the complexity of testing.
 
 ## Design
@@ -92,7 +95,7 @@ from property p join status_history  as sh
 where p.last_status_history = sh.id 
     and sh.status_id in (3,4,5)
 ```
-Which can lead to a big decrease in running time given that the status of a property can teoretically change a lot. 
+Which can lead to a big decrease in running time given that the status of a property can theoretically change a lot. 
 * The sql code is added in [reduce_queries.sql](./sql/reduce_queries.sql)
   - Having in consideration the modification is done after some data exist in the database the NOT NULL constrain in the new column is avoided but is something the programmers must have in consideration.
 
@@ -100,4 +103,4 @@ Which can lead to a big decrease in running time given that the status of a prop
 * Different notes of design provided in the file [minor-notes.md](minor-notes.md)
 
 ## Closing
-Thanks for reading this far, I wish you a good day and I'm very looking forward to an interview with you.
+Thanks for reading this far, I wish you a good day, and I'm very looking forward to an interview with you.
